@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "ash",
+	"version": "0.0.1-1.26.3",
+	"name": "ash",
+	"description": "a mod to bring Ellora to Minecraft!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT-License",
+	"icon": "assets/ash/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ash.Ash"
+		],
+		"fabric-datagen": [
+			"com.ash.AshDataGenerator"
+		]
+	},
+	"mixins": [
+		"ash.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
