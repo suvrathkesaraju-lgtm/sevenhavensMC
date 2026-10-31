@@ -1,5 +1,6 @@
 package com.ash.creativemodtab;
 
+import com.ash.block.ModBlocks;
 import com.ash.item.Moditems;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.network.chat.Component;
@@ -17,6 +18,7 @@ public class ModCreativeModeTabs {
                     .displayItems((parameters, output) -> {
                         output.accept(Moditems.AirShard);
                         output.accept(Moditems.AnomalyShard);
+                        output.accept(ModBlocks.AirBlock);
                     })
                     .build());
     public static void registerModCreativeTabs() {

@@ -1,5 +1,8 @@
 {
   "item.ash.air_shard": "Air Shard",
   "item.ash.anomaly_shard": "Anomaly Shard",
-  "creativemodetabs.ash.seven_havens_items": "Seven Havens Items"
+
+  "creativemodetabs.ash.seven_havens_items": "Seven Havens Items",
+
+  "block.ash.air_block": "Air Block"
 }

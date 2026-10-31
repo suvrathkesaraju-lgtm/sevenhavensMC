@@ -1,5 +1,8 @@
 // 26.3	-999999999-01-01T00:00:00	ash/Model Definitions
+fc530d240533c7dcb56136ab204d6eaf1a4050f5 assets/ash/blockstates/air_block.json
+6ef9229bf67aaa822d7060459afbdec69a15c257 assets/ash/items/air_block.json
 4bb983064bb33cd669b74eb206e2a1ea7613d9b6 assets/ash/items/air_shard.json
 37ae128cc2ecec657108fa9d8c60238764c5d6aa assets/ash/items/anomaly_shard.json
+4ae09e9cd50bb5b19a7f155dd9e3ea4df684d55f assets/ash/models/block/air_block.json
 3dfbc1a952117ddcfe0d80ec21b5e5f9312b049e assets/ash/models/item/air_shard.json
 610ed4af825d5c0e9621e34c68ebe936ea4493b9 assets/ash/models/item/anomaly_shard.json
