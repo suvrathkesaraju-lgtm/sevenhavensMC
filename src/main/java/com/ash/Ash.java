@@ -1,5 +1,6 @@
 package com.ash;
 
+import com.ash.creativemodtab.ModCreativeModeTabs;
 import com.ash.item.Moditems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,6 +16,7 @@ public class Ash implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		Moditems.registerModItems();
+		ModCreativeModeTabs.registerModCreativeTabs();
 	}
 
 	public static Identifier id(String path) {
