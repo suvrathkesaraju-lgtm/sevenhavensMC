@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "minecraft:dropped": {
+      "ash:air_shard": 3
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 984,
+      "minecraft:walk_one_cm": 1485,
+      "minecraft:total_world_time": 1002,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 984,
+      "minecraft:climb_one_cm": 52,
+      "minecraft:jump": 5,
+      "minecraft:time_since_death": 984,
+      "minecraft:drop": 3
+    },
+    "minecraft:picked_up": {
+      "ash:air_shard": 3
+    }
+  },
+  "DataVersion": 5023
+}

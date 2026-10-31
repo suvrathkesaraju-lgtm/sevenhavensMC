@@ -1,5 +1,6 @@
 package com.ash;
 
+import com.ash.item.Moditems;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -13,7 +14,7 @@ public class Ash implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		Moditems.registerModItems();
 	}
 
 	public static Identifier id(String path) {

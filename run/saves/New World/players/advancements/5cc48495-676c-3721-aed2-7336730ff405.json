@@ -1,0 +1,16 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2026-10-30 20:47:39 -0400",
+      "minecraft:swamp": "2026-10-30 20:47:44 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-10-30 20:47:38 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 5023
+}
