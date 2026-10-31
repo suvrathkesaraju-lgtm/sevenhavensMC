@@ -19,6 +19,9 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.AirShard);
                         output.accept(Moditems.AnomalyShard);
                         output.accept(ModBlocks.AirBlock);
+                        output.accept(ModBlocks.AnomalyBlock);
+                        output.accept(ModBlocks.AnomalyRemnant);
+                        output.accept(ModBlocks.AirRemnant);
                     })
                     .build());
     public static void registerModCreativeTabs() {

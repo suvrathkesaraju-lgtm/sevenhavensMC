@@ -17,7 +17,13 @@ import java.util.function.Function;
 public class ModBlocks {
 
     public static final Block AirBlock = registerBlock("air_block", properties ->
-            new Block(properties.strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+            new Block(properties.strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+    public static final Block AnomalyBlock = registerBlock("anomaly_block", properties ->
+            new Block(properties.strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_BRICKS)));
+    public static final Block AnomalyRemnant = registerBlock("anomaly_remnant", properties ->
+            new Block(properties.strength(4f).requiresCorrectToolForDrops().sound(SoundType.LANTERN)));
+    public static final Block AirRemnant = registerBlock("air_remnant", properties ->
+            new Block(properties.strength(4f).requiresCorrectToolForDrops().sound(SoundType.LANTERN)));
 
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {

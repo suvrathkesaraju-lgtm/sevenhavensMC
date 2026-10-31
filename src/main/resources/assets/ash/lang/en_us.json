@@ -1,8 +1,11 @@
 {
-  "item.ash.air_shard": "Air Shard",
+  "item.ash.air_shard": "Air Spirit Shard",
   "item.ash.anomaly_shard": "Anomaly Shard",
 
   "creativemodetabs.ash.seven_havens_items": "Seven Havens Items",
 
-  "block.ash.air_block": "Air Block"
+  "block.ash.air_block": "Block of Air Spirit",
+  "block.ash.anomaly_block": "Anomaly Block",
+  "block.ash.anomaly_remnant": "Remnant from the Anomaly",
+  "block.ash.air_remnant": "Remnant from the Air Spirit"
 }
