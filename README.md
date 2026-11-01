@@ -1,6 +1,9 @@
 # ash
 A Mod for Minecraft created to bring Avatar  Seven Havens Inspired Blocks and More
 
+<img width="1868" height="1056" alt="screenshot-2026-11-01_01-20-53" src="https://github.com/user-attachments/assets/27112ba0-1419-4707-9c4c-df3771369857" />
+
+
 ## Changes to the game so far
 
 -Added 4 Blocks
