@@ -27,7 +27,7 @@ A Mod for Minecraft created to bring Avatar  Seven Havens Inspired Blocks and Mo
 - in order to access everything please use creative menu
 
 #How To  Run
-- Install MC with  Fabric Mod Loader
+- Install MC with  Fabric Mod Loader(REQUIRES MC JAVA)
 - Download the Mod from the Release Page
 - Run MC instance atleast 1 time
 - Drag And Drop mod jar file into the Mods folder in Minecraft files
