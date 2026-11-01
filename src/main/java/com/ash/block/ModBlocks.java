@@ -6,9 +6,11 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
@@ -21,10 +23,9 @@ public class ModBlocks {
     public static final Block AnomalyBlock = registerBlock("anomaly_block", properties ->
             new Block(properties.strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_BRICKS)));
     public static final Block AnomalyRemnant = registerBlock("anomaly_remnant", properties ->
-            new Block(properties.strength(4f).requiresCorrectToolForDrops().sound(SoundType.LANTERN)));
+            new DropExperienceBlock(UniformInt.of(2, 5),properties.strength(3f).requiresCorrectToolForDrops().sound(SoundType.LANTERN)));
     public static final Block AirRemnant = registerBlock("air_remnant", properties ->
-            new Block(properties.strength(4f).requiresCorrectToolForDrops().sound(SoundType.LANTERN)));
-
+            new DropExperienceBlock(UniformInt.of(2,5),properties.strength(3f).requiresCorrectToolForDrops().sound(SoundType.LANTERN)));
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier

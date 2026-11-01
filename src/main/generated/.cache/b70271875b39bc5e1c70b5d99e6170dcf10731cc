@@ -1,0 +1,5 @@
+// 26.3	-999999999-01-01T00:00:00	ash/Block Loot Tables
+7edae2dfb2449b901ded3a8938268baf8e3053de data/ash/loot_table/blocks/air_block.json
+33a0324b615d1d5b772dcffeed698096ca28bde3 data/ash/loot_table/blocks/air_remnant.json
+0b21020421f1da3b0315bf07164207e5721d969e data/ash/loot_table/blocks/anomaly_block.json
+7994af5cc9c03b5ab0de4bdf75e6bbc7bc12ab26 data/ash/loot_table/blocks/anomaly_remnant.json
