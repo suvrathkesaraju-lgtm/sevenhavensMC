@@ -6,7 +6,7 @@ A Mod for Minecraft created to bring Avatar  Seven Havens Inspired Blocks and Mo
 
 ## Changes to the game so far
 
--Added 4 Blocks
+- Added 4 Blocks
   - Air Block
   - Anomaly BLock
   - Anomaly Remnant
@@ -24,6 +24,14 @@ A Mod for Minecraft created to bring Avatar  Seven Havens Inspired Blocks and Mo
   - Air Remnant drops Air shard
   - Anomaly Remnant drops Anomaly shard
   - Everything Else drops itself
+- in order to access everything please use creative menu
+
+#How To  Run
+- Install MC with  Fabric Mod Loader
+- Download the Mod from the Release Page
+- Run MC instance atleast 1 time
+- Drag And Drop mod jar file into the Mods folder in Minecraft files
+- Relaunch Minecraft and play with the mod
 
 ## License
 
