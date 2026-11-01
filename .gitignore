@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# Fabric Loom dev environment (game runs, logs, usercache, worlds)
+run/
+remappedSrc/
+
+# IDE
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+*.iml
+*.ipr
+*.iws
+
+# Logs and JVM crash dumps
+*.log
+hs_err_pid*
+replay_pid*
+
+# OS
+.DS_Store
+Thumbs.db
