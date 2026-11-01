@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_air_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ash:air_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "ash:air_shard"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_air_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ash:air_shard"
+    ]
+  }
+}

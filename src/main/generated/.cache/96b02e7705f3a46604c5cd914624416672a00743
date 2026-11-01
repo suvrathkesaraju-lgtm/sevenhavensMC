@@ -1,0 +1,9 @@
+// 26.3	-999999999-01-01T00:00:00	ash/A.S.H mod Recipes
+f5b82db9d540685ef544542b836dbcfb4e13c0bc data/ash/advancement/recipes/building_blocks/air_block.json
+bd16ffc0aa1b937ddbd6ce0b0501a2826ad4847e data/ash/advancement/recipes/building_blocks/air_shard.json
+d5095ad54d5547eb62d2916b7a75cb2274eaaca3 data/ash/advancement/recipes/building_blocks/anomaly_block.json
+87bfbff012119542e0c412fec60d9487c8997028 data/ash/advancement/recipes/building_blocks/anomaly_shard.json
+60bca53b005761c0f0421f86c072a92fcef8a4f2 data/ash/recipe/air_block.json
+8b3ded45664ce29199f621dab919fc59ad4b52ad data/ash/recipe/air_shard.json
+78cc4f738686f78299eb81a87868df3313092431 data/ash/recipe/anomaly_block.json
+fe4c2f70a2c04d61015e997a518d7d581c2dcd59 data/ash/recipe/anomaly_shard.json

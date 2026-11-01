@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "ash:air_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "ash:air_shard"
+  }
+}
